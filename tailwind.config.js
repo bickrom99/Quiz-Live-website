@@ -9,7 +9,8 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        noto_font: ["Noto Serif", "serif"]
+        noto_font: ["Noto Serif", "serif"],
+        roboto: ["Roboto", "sans-serif"]
       },
     },
   },

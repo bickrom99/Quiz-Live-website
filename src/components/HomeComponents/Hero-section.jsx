@@ -1,24 +1,29 @@
+import {Link} from 'react-router-dom';
+import {FaAngleRight} from 'react-icons/fa6';
 const HeroSection = () => {
-    return (
-      <div className="relative flex justify-center items-center h-[90vh] text-white mt-10" >
-        {/* Video Background */}
-        <video className="absolute top-0 left-0 h-full w-full object-cover z-[-2]" autoPlay loop muted>
-          <source src="/public/images/header-section video.mp4" type="video/mp4" />
-        </video>
-  
-        {/* Backgound overly Dark Color Overlay */}
-        <div className="absolute top-0 left-0 h-full w-full bg-black opacity-40 z-[-1]" />
+  return (
+    <div
+      className="mt-16 dark:bg-black dark:text-white bg-[#E2E6E9]">
+        <div className="h-[80vh] max-w-4xl mx-auto grid grid-cols-6 justify-between items-center">
+          <div className="col-span-4">
+            <p className="font-poppins font-bold text-4xl">Host Live Quizzes for <br/> Free on Quizizz</p>
+            <p className="font-noto_font pt-2">Host online quizzes live and interact with your <br/> participants in real time with Quizizz</p>
 
-  
-        {/* Text Content */}
-        <div className="relative z-1">
-          <h1 className="text-center font-bold text-4xl m-0">Host Live Quizzes for Free on Quizizz</h1>
-          <p className="text-center text-2xl pt-2">YHost online quizzes live and interact with your participants in real time with Quizizz
-        </p>
+            {/* hero button */}
+            <Link to="/">
+            <button className="mt-4 px-8 py-3 bg-[#8854C0] hover:bg-[#7b44b5] text-white rounded text-sm font-roboto flex justify-center items-center border-b-4 border-[#6930a6] hover:border-none transition-all duration-75">
+              Create a Quiz<FaAngleRight className="text-[1rem]" />
+            </button>
+            </Link>
+          </div>
+          <div className="col-span-2">
+            <img className="w-[300px] h-[400px]" src="/public/images/hero-image.png" alt="" />
+          </div>
         </div>
-      </div>
-    );
-  };
-  
-  export default HeroSection;
+    </div>
+  );
+};
+
+export default HeroSection;
+
   
