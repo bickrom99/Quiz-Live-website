@@ -3,7 +3,7 @@ const HeroSection = () => {
       <div className="relative flex justify-center items-center h-[90vh] text-white mt-10" >
         {/* Video Background */}
         <video className="absolute top-0 left-0 h-full w-full object-cover z-[-2]" autoPlay loop muted>
-          <source src="/public/header-video/hero section video.mp4" type="video/mp4" />
+          <source src="/public/images/header-section video.mp4" type="video/mp4" />
         </video>
   
         {/* Backgound overly Dark Color Overlay */}
