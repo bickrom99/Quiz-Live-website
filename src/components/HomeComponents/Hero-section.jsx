@@ -3,7 +3,7 @@ const HeroSection = () => {
       <div className="relative flex justify-center items-center h-[90vh] text-white mt-10" >
         {/* Video Background */}
         <video className="absolute top-0 left-0 h-full w-full object-cover z-[-2]" autoPlay loop muted>
-          <source src="/src/images/header-section video.mp4" type="video/mp4" />
+          <source src="/public/images/header-section video.mp4" type="video/mp4" />
         </video>
   
         {/* Backgound overly Dark Color Overlay */}
@@ -13,7 +13,8 @@ const HeroSection = () => {
         {/* Text Content */}
         <div className="relative z-1">
           <h1 className="text-center font-bold text-4xl m-0">Host Live Quizzes for Free on Quizizz</h1>
-          <p className="text-center text-2xl pt-2">YHost online quizzes live and interact with your participants in real time with Quizizz</p>
+          <p className="text-center text-2xl pt-2">YHost online quizzes live and interact with your participants in real time with Quizizz
+        </p>
         </div>
       </div>
     );
