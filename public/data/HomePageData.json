@@ -1,0 +1,22 @@
+[
+  {
+    "id": "header-log-1",
+    "image": "/images/logo.png"
+  },
+  {
+    "id": "hero-section-logo",
+    "image": "/images/hero-image.png"
+  },
+  {
+    "id": "section2-image1",
+    "image": ""
+  },
+  {
+    "id": "section2-image2",
+    "image": "https://ibb.co.com/PrBxFxN"
+  },
+  {
+    "id": "section2-image3",
+    "image": "https://ibb.co.com/6sv0YJN"
+  }
+]

@@ -2,6 +2,7 @@
 import { FaMoon, FaSun } from "react-icons/fa6";
 import { NavLink } from 'react-router-dom';
 
+
 const Navbar = ({toggleDarkMode, darkMode}) => {
     // Nav items
     const navItems = [
@@ -21,7 +22,7 @@ const Navbar = ({toggleDarkMode, darkMode}) => {
                 
                 {/* Logo with NavLink */}
                 <NavLink to="/">
-                    <img src={darkMode?"https://img.freepik.com/free-vector/hand-drawn-elementary-school-logo-design_23-2149667294.jpg":"/public/images/logo.png"} className="max-h-12 max-w-32" alt="Logo" />
+                    <img src={darkMode?"https://img.freepik.com/free-vector/hand-drawn-elementary-school-logo-design_23-2149667294.jpg":"/images/logo.png"} className="max-h-12 max-w-32" alt="Logo" />
                 </NavLink>
                 
                 {/* Nav menu items */}
