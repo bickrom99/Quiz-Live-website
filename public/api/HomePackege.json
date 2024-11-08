@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Free premium package",
+    "price": "Free",
+    "date": "7 Days",
+    "des1": "All premium features",
+    "des2": "All tests",
+    "des3": "All video classes"
+  },
+  {
+    "title": "Monthly Premium Package",
+    "price": "20",
+    "date": "30 Days",
+    "des1": "All premium features",
+    "des2": "All tests",
+    "des3": "-"
+  },
+  {
+    "title": "Six months premium package",
+    "price": "99",
+    "date": "6 Month",
+    "des1": "All premium features",
+    "des2": "All tests",
+    "des3": "All video classes"
+  },
+  {
+    "title": "Annual Premium Package",
+    "price": "199",
+    "date": "1 Year",
+    "des1": "All premium features",
+    "des2": "All tests",
+    "des3": "All video classes"
+  }
+]

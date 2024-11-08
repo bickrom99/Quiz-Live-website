@@ -2,89 +2,105 @@
   {
     "name": "Alice M.",
     "title": "High School Student",
-    "image": "/public/images/homeImage/testimonial1.jpg",
+    "image": "/images/homeImage/testimonial1.jpg",
+    "description": "This live quiz platform is fantastic! The questions are well-challenging and really test my knowledge. I feel more confident with each quiz I take.",
     "review": "⭐⭐⭐⭐⭐",
-    "description": "This live quiz platform is fantastic! The questions are well-challenging and really test my knowledge. I feel more confident with each quiz I take."
+    "rating": 4.9
   },
   {
     "name": "James L.",
     "title": "College Freshman",
-    "image": "/public/images/homeImage/testimonial2.jpg",
-    "review": "⭐⭐⭐⭐⭐",
-    "description": "I love the variety of topics covered in the quizzes. It’s a great way to revise my subjects. The interface is user-friendly, and the scores are immediate."
+    "image": "/images/homeImage/testimonial3.jpg",
+    "description": "I love the variety of topics covered in the quizzes. It’s a great way to revise my subjects. The interface is user-friendly, and the scores are immediate.",
+    "review": "⭐⭐⭐⭐",
+    "rating": 4.5
   },
   {
     "name": "Sophia R.",
     "title": "Aspiring Medical Student",
-    "image": "/public/images/homeImage/testimonial3.jpg",
+    "image": "/images/homeImage/testimonial2.jpg",
+    "description": "The live quiz format is engaging and helps me stay focused. I like the timed feature, which pushes me to think quickly. Great for competitive students!",
     "review": "⭐⭐⭐⭐⭐",
-    "description": "The live quiz format is engaging and helps me stay focused. I like the timed feature, which pushes me to think quickly. Great for competitive students!"
+    "rating": 5
   },
   {
     "name": "Daniel H.",
     "title": "Engineering Student",
-    "image": "/public/images/homeImage/testimonial4.jpg",
+    "image": "/images/homeImage/testimonial4.jpg",
+    "description": "I've improved my problem-solving skills with this platform. It’s perfect for preparing for exams, especially with its real-time results. Highly recommend it!",
     "review": "⭐⭐⭐⭐⭐",
-    "description": "I've improved my problem-solving skills with this platform. It’s perfect for preparing for exams, especially with its real-time results. Highly recommend it!"
+    "rating": 5
   },
   {
     "name": "Lily T.",
     "title": "Junior High Schooler",
-    "image": "/public/images/homeImage/testimonial5.jpg",
+    "image": "/images/homeImage/testimonial5.jpg",
+    "description": "Such a fun way to learn! The quizzes make studying way more enjoyable, and I love comparing my scores with my friends.",
     "review": "⭐⭐⭐⭐⭐",
-    "description": "Such a fun way to learn! The quizzes make studying way more enjoyable, and I love comparing my scores with my friends."
+    "rating": 4
   },
   {
     "name": "Ryan K.",
     "title": "Law Student",
-    "image": "/public/images/homeImage/testimonial6.jpg",
+    "image": "/images/homeImage/testimonial6.jpg",
+    "description": "I use this quiz site to keep my mind sharp. It’s well-designed and works perfectly across my devices. This has become my go-to for studying.",
     "review": "⭐⭐⭐⭐⭐",
-    "description": "I use this quiz site to keep my mind sharp. It’s well-designed and works perfectly across my devices. This has become my go-to for studying."
+    "rating": 4.9
   },
   {
     "name": "Emily V.",
     "title": "High School Senior",
-    "image": "/public/images/homeImage/testimonial7.jpg",
+    "image": "/images/homeImage/testimonial7.jpg",
+    "description": "This site is great for reviewing topics before exams. I really appreciate the level of detail in each question. Super helpful for my studies!",
     "review": "⭐⭐⭐⭐⭐",
-    "description": "This site is great for reviewing topics before exams. I really appreciate the level of detail in each question. Super helpful for my studies!"
+    "rating": 5
   },
   {
     "name": "Michael B.",
     "title": "Computer Science Student",
-    "image": "/public/images/homeImage/testimonial8.jpg",
+    "image": "/images/homeImage/testimonial8.jpg",
+    "description": "This quiz platform is amazing. The timed quizzes are intense but really help me gauge my knowledge. Love the instant feedback on answers!",
     "review": "⭐⭐⭐⭐⭐",
-    "description": "This quiz platform is amazing. The timed quizzes are intense but really help me gauge my knowledge. Love the instant feedback on answers!"
+    "rating": 5
   },
   {
     "name": "Grace W.",
     "title": "Biology Major",
-    "image": "/public/images/homeImage/testimonial9.jpg",
+    "image": "/images/homeImage/testimonial9.jpg",
+    "description": "The quiz tests are so comprehensive. The questions cover everything I need for my classes, and I love the challenge. It’s perfect for study breaks.",
     "review": "⭐⭐⭐⭐⭐",
-    "description": "The quiz tests are so comprehensive. The questions cover everything I need for my classes, and I love the challenge. It’s perfect for study breaks."
+    "rating": 3
   },
   {
     "name": "Ethan D.",
     "title": "Pre-Med Student",
-    "image": "/public/images/homeImage/testimonial10.jpg",
+    "image": "/images/homeImage/testimonial10.jpg",
+    "description": "This platform’s quizzes help me track my progress. I feel like I learn something new with each quiz. Definitely a valuable study tool!",
     "review": "⭐⭐⭐⭐⭐",
-    "description": "This platform’s quizzes help me track my progress. I feel like I learn something new with each quiz. Definitely a valuable study tool!"
+    "rating": 5
   },
   {
     "name": "Olivia N.",
     "title": "High School Junior",
+    "image": "/images/homeImage/testimonials12.avif",
+    "description": "Fun and educational! I’ve been using this to prepare for my final exams, and it’s been so helpful. I recommend it to all my friends.",
     "review": "⭐⭐⭐⭐⭐",
-    "description": "Fun and educational! I’ve been using this to prepare for my final exams, and it’s been so helpful. I recommend it to all my friends."
+    "rating": 5
   },
   {
     "name": "Andrew P.",
     "title": "Physics Student",
-    "review": "⭐⭐⭐⭐⭐",
-    "description": "The live quizzes are fantastic for quick learning. It helps me stay sharp and motivated to study. A very effective way to prepare for exams!"
+    "image": "/images/homeImage/testimonials11.avif",
+    "description": "The live quizzes are fantastic for quick learning. It helps me stay sharp and motivated to study. A very effective way to prepare for exams!",
+    "review": "⭐⭐⭐⭐",
+    "rating": 4.9
   },
   {
     "name": "Hannah G.",
     "title": "English Literature Major",
+    "image": "/images/homeImage/testimonials13.avif",
+    "description": "This site has been such a helpful resource. The quizzes are well-structured and cover a wide range of topics. It’s become part of my daily study routine.",
     "review": "⭐⭐⭐⭐⭐",
-    "description": "This site has been such a helpful resource. The quizzes are well-structured and cover a wide range of topics. It’s become part of my daily study routine."
+    "rating": 4.9
   }
 ]
