@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import {FaAngleRight} from 'react-icons/fa6';
+import homepage from "../../../public/api/HomePageData.json";
 
 const HomeSection2 = () => {
     return (
@@ -12,17 +13,17 @@ const HomeSection2 = () => {
                 </p>
                             
                 <div className="mt-5">
-                    <div className="flex flex-row justify-between ">
-                        <div>Lorem ipsum dolor sit amet.</div>
-                        <div>Lorem ipsum dolor sit amet.</div>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div></div>
+                    <div className="flex flex-col justify-between ">
+                        {
+                            homepage.map((data, index) => (
+                                <div key={index} className="grid grid-cols-2 justify-between mb-4 ">
+                                        <img className="h-44 w-72" src={data.image} alt="image" />
+                                        <div className="font-poppins">
+                                            <div className="text-[#5D2057] leading-7 text-xl font-medium">{data.title}</div>
+                                            <div className="leading-7 text-base pt-4">{data.desciption}</div>
+                                        </div>
+                                </div>
+                            ))}
                     </div>
                 </div>
                 

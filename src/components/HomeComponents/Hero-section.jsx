@@ -17,7 +17,7 @@ const HeroSection = () => {
             </Link>
           </div>
           <div className="col-span-2">
-            <img className="w-[300px] h-[400px]" src="/public/images/hero-image.png" alt="" />
+            <img className="w-[300px] h-[400px]" src="/images/hero-image.png" alt="" />
           </div>
         </div>
     </div>

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Choose from multiple question types",
+    "image": "/public/images/homeImage/section2-image.png",
+    "desciption": "From Drag and Drop to Fill in the blanks, and from MCQs to Video response, mix and match eleven different question types to create effective live quizzes."
+  },
+  {
+    "title": "Tap into detailed reports",
+    "image": "/public/images/homeImage/section2-image2.png",
+    "desciption": "Get insightful and lightning-quick reports on individual student responses and overall class performance. Print, download, or share these reports with just one click."
+  },
+  {
+    "title": "Integrate with an LMS",
+    "image": "/public/images/homeImage/section2-image3.png",
+    "desciption": "Update quizzes, lessons, and grades in the blink of an eye by syncing Quizizz with an LMS like Canvas, Schoology, or Google Classroom."
+  }
+]
