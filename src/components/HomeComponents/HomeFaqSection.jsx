@@ -10,7 +10,7 @@ const HomeFaqSection = () => {
         setOpenFaq(openFaq === index ? null : index);
     };
     return (
-        <div className="bg-[#F8FAFC]">
+        <div className="bg-[#F8FAFC] dark:bg-[#333333]">
             <div className="max-w-4xl m-auto pb-8">
                 <div className="font-poppins font-semibold text-[1.5rem] text-center pt-5 pb-5">
                     FAQ'S

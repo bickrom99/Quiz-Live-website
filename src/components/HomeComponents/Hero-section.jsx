@@ -3,7 +3,7 @@ import {FaAngleRight} from 'react-icons/fa6';
 const HeroSection = () => {
   return (
     <div
-      className="mt-16 dark:bg-black dark:text-white bg-[#E2E6E9]">
+      className="mt-5 pt-14 dark:bg-black dark:text-white bg-[#E2E6E9]">
         <div className="h-[80vh] max-w-4xl mx-auto grid grid-cols-6 justify-between items-center">
           <div className="col-span-4">
             <p className="font-poppins font-bold text-4xl">Host Live Quizzes for <br/> Free on Quizizz</p>

@@ -16,7 +16,7 @@
     "des3": "-"
   },
   {
-    "title": "Six months premium package",
+    "title": "Half year premium package",
     "price": "99",
     "date": "6 Month",
     "des1": "All premium features",
@@ -29,6 +29,7 @@
     "date": "1 Year",
     "des1": "All premium features",
     "des2": "All tests",
-    "des3": "All video classes"
+    "des3": "All video classes",
+    "des4": "Advance features"
   }
 ]

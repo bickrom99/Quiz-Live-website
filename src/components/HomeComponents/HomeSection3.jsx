@@ -9,7 +9,8 @@ const HomeSection3 = () => {
     const testimonialsToShow = showAll ? HomeTestimonialData : HomeTestimonialData.slice(0, 8);
 
     return (
-        <div className="mt-10 mb-10 max-w-5xl mx-auto">
+        <div className="mt-5 pt-8 pb-10 dark:bg-[#0f0f0f]">
+            <div className="max-w-5xl mx-auto">
             <div className="font-poppins font-semibold text-[1.5rem] text-center">
                 Testimonials
             </div>
@@ -57,6 +58,7 @@ const HomeSection3 = () => {
                         </>
                     )}
                 </button>
+            </div>
             </div>
         </div>
     );

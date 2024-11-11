@@ -4,7 +4,7 @@ import homepage from "../../../public/api/HomePageData.json";
 
 const HomeSection2 = () => {
     return (
-        <div className="mt-6 bg-[#6acef5]">
+        <div className="bg-[#6acef5] dark:bg-[#333333]">
             <div className="max-w-3xl mx-auto">
                 <h3 className="pt-8 text-center font-poppins font-semibold text-[1.5rem]">Build high-quality live quizzes
                 </h3>
