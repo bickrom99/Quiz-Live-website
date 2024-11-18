@@ -4,55 +4,55 @@
     "title": "PhD in Chemistry",
     "post": "Associate Professor, Department of Chemistry",
     "collage": "University of Vermont",
-    "image": "/public/images/homeImage/teacher1.jpg"
+    "image": "/images/homeImage/teacher1.jpg"
   },
   {
     "name": "Prof. John Peterson",
     "title": "Masters in Computer Science",
     "post": "Assistant Professor, Department of Computer Science",
     "collage": "University of Wisconsin–Eau Claire",
-    "image": "/public/images/homeImage/teacher2.jpg"
+    "image": "/images/homeImage/teacher2.jpg"
   },
   {
     "name": "Dr. Sarah Lewis",
     "title": "PhD in Physics",
     "post": "Senior Lecturer, Department of Physics",
     "collage": "University of Maine",
-    "image": "/public/images/homeImage/teacher3.jpg"
+    "image": "/images/homeImage/teacher3.jpg"
   },
   {
     "name": "Dr. Michael Thompson",
     "title": "M.A. in History",
     "post": "Associate Professor, Department of History",
     "collage": "University of Tennessee at Chattanooga",
-    "image": "/public/images/homeImage/teacher4.jpg"
+    "image": "/images/homeImage/teacher4.jpg"
   },
   {
     "name": "Prof. Jessica White",
     "title": "Masters in Education",
     "post": "Lecturer, Department of Education",
     "collage": "California State University, Fullerton",
-    "image": "/public/images/homeImage/teacher5.jpg"
+    "image": "/images/homeImage/teacher5.jpg"
   },
   {
     "name": "Dr. Andrew Miller",
     "title": "PhD in Environmental Science",
     "post": "Professor, Department of Environmental Science",
     "collage": "University of North Carolina at Wilmington",
-    "image": "/public/images/homeImage/teacher6.jpg"
+    "image": "/images/homeImage/teacher6.jpg"
   },
   {
     "name": "Prof. Laura Green",
     "title": "MSc in Mathematics",
     "post": "Senior Lecturer, Department of Mathematics",
     "collage": "University of Denver",
-    "image": "/public/images/homeImage/teacher7.jpg"
+    "image": "/images/homeImage/teacher7.jpg"
   },
   {
     "name": "Dr. David Wilson",
     "title": "PhD in Psychology",
     "post": "Associate Professor, Department of Psychology",
     "collage": "University of South Carolina Upstate",
-    "image": "/public/images/homeImage/teacher8.avif"
+    "image": "/images/homeImage/teacher8.avif"
   }
 ]

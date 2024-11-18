@@ -1,7 +1,7 @@
 import { FaFacebook, FaTwitter, FaYoutube, FaPinterest, FaTelegram } from "react-icons/fa6";
 const Footer = () => {
     return (
-        <div className="bg-[#eeeeee]">
+        <div className="bg-[#eeeeee] ">
             <div className="grid grid-cols-5 justify-between max-w-6xl m-auto pt-10 pb-8 gap-10">
                 <div className="col-span-2">
                     <a href="/">

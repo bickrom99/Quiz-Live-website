@@ -54,8 +54,8 @@ const Navbar = ({toggleDarkMode, darkMode}) => {
 
                     {/* Sign in & Sign Out */}
                     <div className="flex gap-3">
-                        <a href="" className="bg-[#f6f0ff] hover:bg-[#ede6f8] text-[#8854c0] font-noto_font py-2 px-3 text-sm text-center rounded-md">Login</a>
-                        <a href="" className="bg-[#8854c0] hover:bg-[#854fbe] font-noto_font text-white py-2 px-3 text-sm text-center rounded-md">Sign up</a>
+                        <NavLink to="/login" className="bg-[#f6f0ff] hover:bg-[#ede6f8] text-[#8854c0] font-noto_font py-2 px-3 text-sm text-center rounded-md">Login</NavLink>
+                        <NavLink to="/signup" className="bg-[#8854c0] hover:bg-[#854fbe] font-noto_font text-white py-2 px-3 text-sm text-center rounded-md">Sign up</NavLink>
                     </div>
                 </div>
             </nav>
