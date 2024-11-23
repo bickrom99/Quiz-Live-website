@@ -8,13 +8,13 @@ const Trigonometry = () => {
             id: 1,
             question: "01. What is the value of sin(90°)?",
             answer: "1",
-            options: ["0", "1", "0.5", "Undefined"],
+            options: ["1", "0", "0.5", "Undefined"],
         },
         {
             id: 2,
             question: "02. What is the value of tan(45°)?",
             answer: "1",
-            options: ["0", "1", "√2", "Undefined"],
+            options: ["0", "√2", "Undefined", "1"],
         },
         {
             id: 3,
@@ -26,7 +26,7 @@ const Trigonometry = () => {
             id: 4,
             question: "04. What is the value of cos(0°)?",
             answer: "1",
-            options: ["0", "1", "Undefined", "-1"],
+            options: ["0", "Undefined","1", "-1"],
         },
         {
             id: 5,

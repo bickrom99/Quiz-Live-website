@@ -1,42 +1,42 @@
 [
   {
-    "image": "/public/images/AdminEnglishImage/englishImage1.jpg",
+    "image": "/images/AdminEnglishImage/englishImage1.jpg",
     "title": "Tense",
     "view": "5k",
     "play": 180
   },
   {
-    "image": "/public/images/AdminEnglishImage/englishImage2.jpg",
+    "image": "/images/AdminEnglishImage/englishImage2.jpg",
     "title": "Sentence",
     "view": "1.2k",
     "play": 60
   },
   {
-    "image": "/public/images/AdminEnglishImage/englishImage3.jpg",
+    "image": "/images/AdminEnglishImage/englishImage3.jpg",
     "title": "Parts of Speech",
     "view": "2k",
     "play": 120
   },
   {
-    "image": "/public/images/AdminEnglishImage/englishImage4.jpg",
+    "image": "/images/AdminEnglishImage/englishImage4.jpg",
     "title": "Articles",
     "view": "3.8k",
     "play": 92
   },
   {
-    "image": "/public/images/AdminEnglishImage/englishImage5.jpg",
+    "image": "/images/AdminEnglishImage/englishImage5.jpg",
     "title": "Key Grammar Concepts",
     "view": "12k",
     "play": "1.3k"
   },
   {
-    "image": "/public/images/AdminEnglishImage/englishImage6.jpg",
+    "image": "/images/AdminEnglishImage/englishImage6.jpg",
     "title": "Grammar Checker",
     "view": "300",
     "play": 32
   },
   {
-    "image": "/public/images/AdminEnglishImage/englishImage7.jpg",
+    "image": "/images/AdminEnglishImage/englishImage7.jpg",
     "title": "Modals",
     "view": "20k",
     "play": "3k"

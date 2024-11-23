@@ -1,48 +1,48 @@
 [
   {
-    "image": "/public/images/AdminMathImage/mathImage1.jpg",
+    "image": "/images/AdminMathImage/mathImage1.jpg",
     "title": "Trigonometry",
     "view": "1k",
     "play": 40,
     "path": "/trigonometry"
   },
   {
-    "image": "/public/images/AdminMathImage/mathImage2.jpg",
+    "image": "/images/AdminMathImage/mathImage2.jpg",
     "title": "Calculus",
     "view": "1.2k",
     "play": 60,
     "path": "/calculus"
   },
   {
-    "image": "/public/images/AdminMathImage/mathImage3.png",
+    "image": "/images/AdminMathImage/mathImage3.png",
     "title": "Probability",
     "view": "9k",
     "play": 120,
     "path": "/probability"
   },
   {
-    "image": "/public/images/AdminMathImage/mathImage4.jpg",
+    "image": "/images/AdminMathImage/mathImage4.jpg",
     "title": "Coordinate Geometry",
     "view": "3.3k",
     "play": 80,
     "path": "/coordinateGeometry"
   },
   {
-    "image": "/public/images/AdminMathImage/mathImage5.png",
+    "image": "/images/AdminMathImage/mathImage5.png",
     "title": "Matrices and Determinants",
     "view": "12k",
     "play": "1k",
     "path": "/matricesAndDeterminants"
   },
   {
-    "image": "/public/images/AdminMathImage/mathImage6.gif",
+    "image": "/images/AdminMathImage/mathImage6.gif",
     "title": "Statistics ",
     "view": "200",
     "play": 20,
     "path": "/statistics"
   },
   {
-    "image": "/public/images/AdminMathImage/mathImage7.png",
+    "image": "/images/AdminMathImage/mathImage7.png",
     "title": "Algebra",
     "view": "20k",
     "play": "3k",
