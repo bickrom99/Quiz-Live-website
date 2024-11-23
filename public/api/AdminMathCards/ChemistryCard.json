@@ -1,0 +1,44 @@
+[
+  {
+    "image": "/public/images/AdminChamistryImg/chemistryImage1.jpg",
+    "title": "Basic Concepts",
+    "view": "10k",
+    "play": 400
+  },
+  {
+    "image": "/public/images/AdminChamistryImg/chemistryImage2.jpg",
+    "title": "Structure Of Atom",
+    "view": "1.8k",
+    "play": 76
+  },
+  {
+    "image": "/public/images/AdminChamistryImg/chemistryImage3.jpg",
+    "title": "States Of Matter",
+    "view": "2.6k",
+    "play": 146
+  },
+  {
+    "image": "/public/images/AdminChamistryImg/chemistryImage4.jpg",
+    "title": "Thermodynamics",
+    "view": "3.4k",
+    "play": 300
+  },
+  {
+    "image": "/public/images/AdminChamistryImg/chemistryImage5.jpg",
+    "title": " Equilibrium",
+    "view": "14k",
+    "play": "1.9k"
+  },
+  {
+    "image": "/public/images/AdminChamistryImg/chemistryImage6.jpg",
+    "title": "Redox Reactions",
+    "view": "2k",
+    "play": 39
+  },
+  {
+    "image": "/public/images/AdminChamistryImg/chemistryImage7.jpg",
+    "title": "Hydrogen",
+    "view": "1k",
+    "play": "90"
+  }
+]

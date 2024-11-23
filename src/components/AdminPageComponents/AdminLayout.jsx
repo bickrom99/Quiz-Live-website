@@ -15,7 +15,7 @@ const AdminLayout = () => {
 
     return (
         <div 
-            className={`${darkMode ? "dark" : ""} max-w-[67rem] ml-auto pt-16`} 
+            className={`${darkMode ? "dark" : ""} max-w-[68rem] ml-auto pt-16`} 
             style={{ backgroundColor: darkMode ? "#333" : "#f4f4f4", minHeight: "100vh" }}>
             <AdminNav darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
             <Outlet/>

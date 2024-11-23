@@ -20,7 +20,7 @@ import School from './components/SchoolComponents/School';
 import "./index.css";
 
 // Admin Dashboard all Page Here
-import AdminDashboard from './components/AdminPageComponents/AdminDashboard';
+import AdminDashboard from './components/AdminPageComponents/DashboardAllPageComponents/AdminDashboard';
 import Quizzes from './components/AdminPageComponents/DashboardAllPageComponents/Quizzes';
 import Reports from './components/AdminPageComponents/DashboardAllPageComponents/Reports';
 import Classes from './components/AdminPageComponents/DashboardAllPageComponents/Classes';
@@ -28,6 +28,19 @@ import Collections from './components/AdminPageComponents/DashboardAllPageCompon
 import Seting from './components/AdminPageComponents/DashboardAllPageComponents/Seting';
 import Profile from './components/AdminPageComponents/DashboardAllPageComponents/Profile';
 import Library from './components/AdminPageComponents/DashboardAllPageComponents/Library';
+
+
+// MathQuizeALlComponent here
+import Trigonometry from './components/AdminPageComponents/MathAllChepterComp/Trigonometry';
+import Calculus from './components/AdminPageComponents/MathAllChepterComp/Calculus';
+import CoordinateGeometry from './components/AdminPageComponents/MathAllChepterComp/CoordinateGeometry';
+import MatricesAndDeterminants from './components/AdminPageComponents/MathAllChepterComp/MatricesAndDeterminants';
+import Probability from './components/AdminPageComponents/MathAllChepterComp/Probability';
+import Statistics from './components/AdminPageComponents/MathAllChepterComp/Statistics';
+import Algebra from './components/AdminPageComponents/MathAllChepterComp/Algebra';
+
+
+
 
 
 
@@ -116,7 +129,39 @@ const router = createBrowserRouter([
       {
         path: "/profile",
         element: <Profile/>
+      },
+
+
+      // Math quize all component
+      {
+        path: "/trigonometry",
+        element: <Trigonometry/>
+      },
+      {
+        path: "/calculus",
+        element: <Calculus/>
+      },
+      {
+        path: "/coordinateGeometry",
+        element: <CoordinateGeometry/>
+      },
+      {
+        path: "/matricesAndDeterminants",
+        element: <MatricesAndDeterminants/>
+      },
+      {
+        path: "/probability",
+        element: <Probability/>
+      },
+      {
+        path: "/statistics",
+        element: <Statistics/>
+      },
+      {
+        path: "/algebra",
+        element: <Algebra/>
       }
+
     ]
   }
   
