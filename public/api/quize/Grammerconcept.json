@@ -1,0 +1,51 @@
+{
+  "title": "Key Grammar Concepts",
+  "quote": "Test your understanding of key grammar concepts with this quiz!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the main verb in the sentence: \"She is running quickly\"?",
+      "answer": "running",
+      "options": ["is", "running", "quickly", "She"]
+    },
+    {
+      "id": 2,
+      "question": "Which is an example of a compound sentence?",
+      "answer": "I like tea, and she likes coffee.",
+      "options": [
+        "I like tea.",
+        "She likes coffee.",
+        "I like tea, and she likes coffee.",
+        "Although I like tea, she likes coffee."
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is a clause that cannot stand alone called?",
+      "answer": "Dependent Clause",
+      "options": [
+        "Independent Clause",
+        "Dependent Clause",
+        "Phrase",
+        "Sentence"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What type of conjunction is \"because\"?",
+      "answer": "Subordinating",
+      "options": [
+        "Coordinating",
+        "Subordinating",
+        "Correlative",
+        "Interjection"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the grammatical term for a word that shows possession?",
+      "answer": "Possessive Pronoun",
+      "options": ["Noun", "Possessive Pronoun", "Verb", "Conjunction"]
+    }
+  ]
+}

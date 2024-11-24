@@ -31,7 +31,7 @@ const AdminNav = ({toggleDarkMode, darkMode}) => {
     const navItems = [
         { path: "/admin", link: "Explore" , icon: <FaCompass/>},
         { path: "/library", link: "My Library", icon: <FaBook/> },
-        { path: "/quizz", link: "Quizz All", icon: <FaQuestion/> },
+        { path: "/quizz/QuizzAll", link: "Quizz All", icon: <FaQuestion/> },
         { path: "/report", link: "Reports", icon: <FaChartBar/>},
         { path: "/classes", link: "Classes", icon: <FaChalkboardTeacher/>},
         { path: "/collections", link: "Collections", icon: <FaThLarge/>},

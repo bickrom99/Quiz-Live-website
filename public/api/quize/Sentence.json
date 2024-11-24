@@ -1,0 +1,46 @@
+{
+  "title": "Sentence",
+  "quote": "Test your knowledge on sentence types and structure!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which is a declarative sentence?",
+      "answer": "The sun rises in the east.",
+      "options": [
+        "What time is it?",
+        "Please open the window.",
+        "The sun rises in the east.",
+        "Is she coming?"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which type of sentence expresses strong emotion?",
+      "answer": "Exclamatory",
+      "options": ["Declarative", "Interrogative", "Imperative", "Exclamatory"]
+    },
+    {
+      "id": 3,
+      "question": "What is the subject in the sentence: \"The cat chased the mouse\"?",
+      "answer": "The cat",
+      "options": ["The mouse", "The cat", "chased", "mouse"]
+    },
+    {
+      "id": 4,
+      "question": "What type of sentence gives a command?",
+      "answer": "Imperative",
+      "options": ["Declarative", "Interrogative", "Imperative", "Exclamatory"]
+    },
+    {
+      "id": 5,
+      "question": "Identify the simple sentence.",
+      "answer": "She reads books.",
+      "options": [
+        "She reads books.",
+        "Although she was tired, she finished her homework.",
+        "She reads and writes.",
+        "She, however, reads and writes well."
+      ]
+    }
+  ]
+}

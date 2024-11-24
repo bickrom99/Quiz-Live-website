@@ -1,20 +1,20 @@
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-import MathCard from "../../../../public/api/AdminMathCards/MathCard.json";
-import EnglishCardData from "../../../../public/api/AdminMathCards/EnglishCard.json";
-import ChemistryCardData from '../../../../public/api/AdminMathCards/ChemistryCard.json';
-import { 
-    FaSquareRootAlt, 
-    FaBook, 
-    FaFlask, 
-    FaAtom, 
-    FaKeyboard, 
-    FaDesktop, 
-    FaCode, 
-    FaWordpress, 
+import {
     FaArrowRight,
-    FaStar
+    FaAtom,
+    FaBook,
+    FaCode,
+    FaDesktop,
+    FaFlask,
+    FaKeyboard,
+    FaSquareRootAlt,
+    FaStar,
+    FaWordpress
 } from "react-icons/fa";
+import ChemistryCardData from '../../../../public/api/AdminMathCards/ChemistryCard.json';
+import EnglishCardData from "../../../../public/api/AdminMathCards/EnglishCard.json";
+import MathCard from "../../../../public/api/AdminMathCards/MathCard.json";
 
 
 const AdminDashboard = () => {
@@ -88,7 +88,7 @@ const AdminDashboard = () => {
                     {MathCard.map((mathdata, index) => (
                         <NavLink
                             key={index}
-                            to={mathdata.path}
+                            to={`/quizz/${mathdata.title}`} 
                             className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
                         >
                             <img src={mathdata.image} alt="image" className="h-32 w-full object-cover rounded-t" />
@@ -114,7 +114,8 @@ const AdminDashboard = () => {
                     {/* Carousel */}
                     <div className="carousel carousel-center  space-x-4 bg-neutral-100 p-4 rounded-box">
                         {EnglishCardData.map((Englishdata, index) => (
-                            <div
+                            <NavLink
+                                to={`/quizz/${Englishdata.title}`}
                                 key={index}
                                 className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
                             >
@@ -126,7 +127,7 @@ const AdminDashboard = () => {
                                         <p className="text-xs font-poppins font-light">{Englishdata.play} plays</p>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         ))}
                     </div>
                 </div>
@@ -141,7 +142,8 @@ const AdminDashboard = () => {
                     {/* Carousel */}
                     <div className="carousel carousel-center  space-x-4 bg-neutral-100 p-4 rounded-box">
                         {ChemistryCardData.map((Chemistrydata, index) => (
-                            <div
+                            <NavLink
+                                to={`/quizz/${Chemistrydata.title}`}
                                 key={index}
                                 className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
                             >
@@ -153,7 +155,7 @@ const AdminDashboard = () => {
                                         <p className="text-xs font-poppins font-light">{Chemistrydata.play} plays</p>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         ))}
                     </div>
                 </div>

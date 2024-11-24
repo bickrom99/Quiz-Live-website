@@ -1,0 +1,36 @@
+{
+  "title": "Hydrogen",
+  "quote": "Dive into equations and unravel the secrets of variables!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the most common isotope of hydrogen?",
+      "answer": "Protium",
+      "options": ["Protium", "Deuterium", "Tritium", "None"]
+    },
+    {
+      "id": 2,
+      "question": "What is the chemical formula of water?",
+      "answer": "H₂O",
+      "options": ["H₂O", "H₂O₂", "HO₂", "H₂"]
+    },
+    {
+      "id": 3,
+      "question": "Which element does hydrogen bond with in water?",
+      "answer": "Oxygen",
+      "options": ["Oxygen", "Nitrogen", "Hydrogen", "Carbon"]
+    },
+    {
+      "id": 4,
+      "question": "What is the oxidation state of hydrogen in H₂O?",
+      "answer": "+1",
+      "options": ["0", "+1", "-1", "-2"]
+    },
+    {
+      "id": 5,
+      "question": "Which gas is produced when hydrogen reacts with oxygen?",
+      "answer": "Water vapor",
+      "options": ["Carbon dioxide", "Water vapor", "Nitrogen", "Ammonia"]
+    }
+  ]
+}

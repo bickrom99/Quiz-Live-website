@@ -1,0 +1,51 @@
+{
+  "title": "Structure Of Atom",
+  "quote": "Dive into equations and unravel the secrets of variables!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who proposed the nuclear model of the atom?",
+      "answer": "Rutherford",
+      "options": ["Dalton", "Bohr", "Rutherford", "Thomson"]
+    },
+    {
+      "id": 2,
+      "question": "What is the charge of an electron?",
+      "answer": "-1",
+      "options": ["0", "-1", "+1", "-2"]
+    },
+    {
+      "id": 3,
+      "question": "What is the value of Planck's constant (h)?",
+      "answer": "6.626 × 10⁻³⁴ J·s",
+      "options": [
+        "6.626 × 10⁻³² J·s",
+        "6.626 × 10⁻³³ J·s",
+        "6.626 × 10⁻³⁴ J·s",
+        "6.626 × 10⁻³⁵ J·s"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What are the subatomic particles of an atom?",
+      "answer": "Protons, Neutrons, Electrons",
+      "options": [
+        "Protons, Neutrons, Electrons",
+        "Electrons, Positrons, Neutrons",
+        "Protons, Positrons, Neutrons",
+        "Only Protons and Electrons"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which quantum number defines the shape of an orbital?",
+      "answer": "Azimuthal Quantum Number",
+      "options": [
+        "Principal Quantum Number",
+        "Azimuthal Quantum Number",
+        "Magnetic Quantum Number",
+        "Spin Quantum Number"
+      ]
+    }
+  ]
+}

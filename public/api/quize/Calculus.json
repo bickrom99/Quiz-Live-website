@@ -1,0 +1,36 @@
+{
+  "title": "Calculus",
+  "quote": "Dive into the world of limits, derivatives, and integrals!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "01. What is the derivative of x²?",
+      "answer": "2x",
+      "options": ["x", "2x", "x²", "1"]
+    },
+    {
+      "id": 2,
+      "question": "02. What is the integral of 1/x dx?",
+      "answer": "ln|x| + C",
+      "options": ["x² + C", "ln|x| + C", "1/x + C", "e^x + C"]
+    },
+    {
+      "id": 3,
+      "question": "03. What is the derivative of sin(x)?",
+      "answer": "cos(x)",
+      "options": ["-cos(x)", "cos(x)", "sin(x)", "-sin(x)"]
+    },
+    {
+      "id": 4,
+      "question": "04. What is the second derivative of x³?",
+      "answer": "6x",
+      "options": ["3x", "6x", "x²", "3x²"]
+    },
+    {
+      "id": 5,
+      "question": "05. What is the limit of (sin(x)/x) as x approaches 0?",
+      "answer": "1",
+      "options": ["0", "1", "Infinity", "Undefined"]
+    }
+  ]
+}

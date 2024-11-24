@@ -1,0 +1,41 @@
+{
+  "title": "Trigeonometric",
+  "quote": "Reach for the stars, because angles always lead to heights!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "01. What is the value of sin(90°)?",
+      "answer": "1",
+      "options": ["1", "0", "0.5", "Undefined"]
+    },
+    {
+      "id": 2,
+      "question": "02. What is the value of tan(45°)?",
+      "answer": "1",
+      "options": ["0", "√2", "Undefined", "1"]
+    },
+    {
+      "id": 3,
+      "question": "03. What is the reciprocal of sin(θ)?",
+      "answer": "cosec(θ)",
+      "options": ["cos(θ)", "tan(θ)", "cosec(θ)", "sec(θ)"]
+    },
+    {
+      "id": 4,
+      "question": "04. What is the value of cos(0°)?",
+      "answer": "1",
+      "options": ["0", "Undefined", "1", "-1"]
+    },
+    {
+      "id": 5,
+      "question": "05. Which trigonometric identity is correct?",
+      "answer": "sin²(θ) + cos²(θ) = 1",
+      "options": [
+        "sin(θ) + cos(θ) = 1",
+        "sin²(θ) + cos²(θ) = 1",
+        "tan²(θ) + sec²(θ) = 1",
+        "cot²(θ) + 1 = sin²(θ)"
+      ]
+    }
+  ]
+}

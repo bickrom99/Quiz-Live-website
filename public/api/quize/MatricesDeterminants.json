@@ -1,0 +1,46 @@
+{
+  "title": "Matrices and Determinants",
+  "quote": "Dive into the fundamentals of matrices and determinants with this quiz.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "01. What is the determinant of a 2x2 matrix [[a, b], [c, d]]?",
+      "answer": "ad - bc",
+      "options": ["ab - cd", "ad + bc", "ad - bc", "a² + b² + c² + d²"]
+    },
+    {
+      "id": 2,
+      "question": "02. What is the identity matrix for a 2x2 matrix?",
+      "answer": "[[1, 0], [0, 1]]",
+      "options": [
+        "[[1, 1], [1, 1]]",
+        "[[1, 0], [0, 1]]",
+        "[[0, 1], [1, 0]]",
+        "[[0, 0], [0, 0]]"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "03. What is the transpose of matrix [[1, 2], [3, 4]]?",
+      "answer": "[[1, 3], [2, 4]]",
+      "options": [
+        "[[1, 2], [3, 4]]",
+        "[[1, 3], [2, 4]]",
+        "[[4, 2], [3, 1]]",
+        "[[2, 1], [4, 3]]"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "04. What is the rank of a zero matrix?",
+      "answer": "0",
+      "options": ["0", "1", "2", "Undefined"]
+    },
+    {
+      "id": 5,
+      "question": "05. If A is a square matrix, what is |kA| (determinant of k times A)?",
+      "answer": "kⁿ|A|, where n is the order of A",
+      "options": ["k|A|", "|A|", "kⁿ|A|, where n is the order of A", "k²|A|"]
+    }
+  ]
+}

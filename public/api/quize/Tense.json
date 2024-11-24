@@ -1,0 +1,56 @@
+{
+  "title": "Tense Quiz",
+  "quote": "Test your knowledge of English tenses!",
+  "TenseQuestions": [
+    {
+      "id": 1,
+      "question": "Which tense is used to describe actions happening right now?",
+      "answer": "Present Continuous",
+      "options": [
+        "Present Simple",
+        "Past Continuous",
+        "Present Continuous",
+        "Future Perfect"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the past tense of \"go\"?",
+      "answer": "went",
+      "options": ["gone", "went", "goes", "going"]
+    },
+    {
+      "id": 3,
+      "question": "Which tense is used for actions that were completed before another past action?",
+      "answer": "Past Perfect",
+      "options": [
+        "Past Continuous",
+        "Past Perfect",
+        "Future Perfect",
+        "Present Perfect"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which sentence is in the future perfect tense?",
+      "answer": "I will have finished the project by tomorrow.",
+      "options": [
+        "I finished the project yesterday.",
+        "I will finish the project tomorrow.",
+        "I have finished the project.",
+        "I will have finished the project by tomorrow."
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which tense is used for general truths or facts?",
+      "answer": "Present Simple",
+      "options": [
+        "Present Continuous",
+        "Past Simple",
+        "Present Simple",
+        "Future Simple"
+      ]
+    }
+  ]
+}

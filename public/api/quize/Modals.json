@@ -1,0 +1,41 @@
+{
+  "title": "Modals",
+  "quote": "Test your understanding of modal verbs!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "01. Which modal verb expresses ability?",
+      "answer": "can",
+      "options": ["must", "can", "might", "should"]
+    },
+    {
+      "id": 2,
+      "question": "02. Which sentence uses a modal verb for permission?",
+      "answer": "May I borrow your pen?",
+      "options": [
+        "I can run fast.",
+        "May I borrow your pen?",
+        "You must be on time.",
+        "I should go now."
+      ]
+    },
+    {
+      "id": 3,
+      "question": "03. Which modal verb expresses obligation?",
+      "answer": "must",
+      "options": ["can", "should", "must", "might"]
+    },
+    {
+      "id": 4,
+      "question": "04. Which modal verb expresses possibility?",
+      "answer": "might",
+      "options": ["can", "must", "might", "should"]
+    },
+    {
+      "id": 5,
+      "question": "05. What does the modal \"should\" express?",
+      "answer": "Advice",
+      "options": ["Permission", "Ability", "Advice", "Obligation"]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Articles",
+  "quote": "Test your understanding of articles: a, an and the!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which article is used before a singular, countable noun that begins with a consonant sound?",
+      "answer": "a",
+      "options": ["a", "an", "the", "none"]
+    },
+    {
+      "id": 2,
+      "question": "Which article is used before a noun to refer to something specific?",
+      "answer": "the",
+      "options": ["a", "an", "the", "no article"]
+    },
+    {
+      "id": 3,
+      "question": "Choose the correct article: \"She has ___ orange.\"",
+      "answer": "an",
+      "options": ["a", "an", "the", "no article"]
+    },
+    {
+      "id": 4,
+      "question": "Which sentence uses the article \"the\" correctly?",
+      "answer": "The moon is bright tonight.",
+      "options": [
+        "The moon is bright tonight.",
+        "A moon is bright tonight.",
+        "An moon is bright tonight.",
+        "Moon is bright tonight."
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Identify the sentence with no article.",
+      "answer": "I like coffee.",
+      "options": [
+        "I like the coffee.",
+        "I like a coffee.",
+        "I like an coffee.",
+        "I like coffee."
+      ]
+    }
+  ]
+}

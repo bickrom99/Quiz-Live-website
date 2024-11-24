@@ -1,0 +1,51 @@
+{
+  "title": "States Of Matter",
+  "quote": "Dive into equations and unravel the secrets of variables!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the process of a gas turning into a liquid called?",
+      "answer": "Condensation",
+      "options": ["Sublimation", "Condensation", "Vaporization", "Freezing"]
+    },
+    {
+      "id": 2,
+      "question": "Which state of matter has a definite shape and volume?",
+      "answer": "Solid",
+      "options": ["Solid", "Liquid", "Gas", "Plasma"]
+    },
+    {
+      "id": 3,
+      "question": "What is Boyle's Law?",
+      "answer": "Pressure is inversely proportional to volume at constant temperature.",
+      "options": [
+        "Pressure is directly proportional to temperature.",
+        "Pressure is inversely proportional to volume at constant temperature.",
+        "Volume is directly proportional to temperature.",
+        "None of the above."
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the term for the temperature at which a liquid boils?",
+      "answer": "Boiling Point",
+      "options": [
+        "Melting Point",
+        "Freezing Point",
+        "Boiling Point",
+        "Critical Point"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which gas law relates pressure, volume, and temperature?",
+      "answer": "Ideal Gas Law",
+      "options": [
+        "Boyle's Law",
+        "Charles's Law",
+        "Ideal Gas Law",
+        "Avogadro's Law"
+      ]
+    }
+  ]
+}

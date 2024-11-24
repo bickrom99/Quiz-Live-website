@@ -1,0 +1,46 @@
+{
+  "title": "Equilibrium",
+  "quote": "Test your understanding of equilibrium concepts!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does Le Chatelier's Principle describe?",
+      "answer": "The effect of changes on equilibrium.",
+      "options": [
+        "The effect of changes on equilibrium.",
+        "The rate of chemical reactions.",
+        "The direction of spontaneous reactions.",
+        "The energy changes in reactions."
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the equilibrium constant (K) for the reaction: A + B ⇌ C?",
+      "answer": "[C]/[A][B]",
+      "options": ["[A][B]/[C]", "[C]/[A][B]", "[A]/[C][B]", "[C][A]/[B]"]
+    },
+    {
+      "id": 3,
+      "question": "Which reaction occurs when K > 1?",
+      "answer": "Forward reaction is favored.",
+      "options": [
+        "Reverse reaction is favored.",
+        "Forward reaction is favored.",
+        "No reaction occurs.",
+        "Both directions are equally favored."
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the term for a substance that speeds up equilibrium without being consumed?",
+      "answer": "Catalyst",
+      "options": ["Reactant", "Catalyst", "Intermediate", "Product"]
+    },
+    {
+      "id": 5,
+      "question": "What is the pH of a neutral solution at 25°C?",
+      "answer": "7",
+      "options": ["0", "7", "14", "10"]
+    }
+  ]
+}

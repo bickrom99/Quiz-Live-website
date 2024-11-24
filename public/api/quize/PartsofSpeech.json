@@ -1,0 +1,36 @@
+{
+  "title": "Parts of Speech",
+  "quote": "Test your knowledge of the parts of speech!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which part of speech describes an action?",
+      "answer": "Verb",
+      "options": ["Noun", "Verb", "Adjective", "Adverb"]
+    },
+    {
+      "id": 2,
+      "question": "Which part of speech connects words, phrases, or clauses?",
+      "answer": "Conjunction",
+      "options": ["Preposition", "Conjunction", "Interjection", "Pronoun"]
+    },
+    {
+      "id": 3,
+      "question": "Which is a proper noun?",
+      "answer": "Paris",
+      "options": ["dog", "city", "Paris", "he"]
+    },
+    {
+      "id": 4,
+      "question": "What part of speech modifies a noun?",
+      "answer": "Adjective",
+      "options": ["Verb", "Adverb", "Conjunction", "Adjective"]
+    },
+    {
+      "id": 5,
+      "question": "Which is a pronoun?",
+      "answer": "They",
+      "options": ["Run", "Beautiful", "They", "House"]
+    }
+  ]
+}

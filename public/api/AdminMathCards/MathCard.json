@@ -22,21 +22,21 @@
   },
   {
     "image": "/images/AdminMathImage/mathImage4.jpg",
-    "title": "Coordinate Geometry",
+    "title": "CoordinateGeometry",
     "view": "3.3k",
     "play": 80,
     "path": "/coordinateGeometry"
   },
   {
     "image": "/images/AdminMathImage/mathImage5.png",
-    "title": "Matrices and Determinants",
+    "title": "MatricesDeterminants",
     "view": "12k",
     "play": "1k",
     "path": "/matricesAndDeterminants"
   },
   {
     "image": "/images/AdminMathImage/mathImage6.gif",
-    "title": "Statistics ",
+    "title": "Statistics",
     "view": "200",
     "play": 20,
     "path": "/statistics"

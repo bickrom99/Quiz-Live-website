@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import AdminNav from "./AdminNav";
+import AdminFooter from "./AdminFooter";
 
 
 const AdminLayout = () => {
@@ -19,6 +20,7 @@ const AdminLayout = () => {
             style={{ backgroundColor: darkMode ? "#333" : "#f4f4f4", minHeight: "100vh" }}>
             <AdminNav darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
             <Outlet/>
+            <AdminFooter/>         
         </div>
     );
 };

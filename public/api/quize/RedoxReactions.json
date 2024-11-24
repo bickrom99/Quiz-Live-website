@@ -1,0 +1,46 @@
+{
+  "title": "Redox Reactions",
+  "quote": "Test your understanding of redox reactions!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What happens to a substance in oxidation?",
+      "answer": "It loses electrons.",
+      "options": [
+        "It loses electrons.",
+        "It gains electrons.",
+        "It gains protons.",
+        "It loses protons."
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the oxidation state of oxygen in water (H₂O)?",
+      "answer": "-2",
+      "options": ["0", "-1", "-2", "+1"]
+    },
+    {
+      "id": 3,
+      "question": "Which is the reducing agent in the reaction: Zn + Cu²⁺ → Zn²⁺ + Cu?",
+      "answer": "Zn",
+      "options": ["Zn", "Cu²⁺", "Zn²⁺", "Cu"]
+    },
+    {
+      "id": 4,
+      "question": "What does a redox reaction involve?",
+      "answer": "Transfer of electrons",
+      "options": [
+        "Transfer of protons",
+        "Transfer of neutrons",
+        "Transfer of electrons",
+        "Transfer of energy"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the oxidation number of chlorine in NaCl?",
+      "answer": "-1",
+      "options": ["-1", "+1", "0", "+2"]
+    }
+  ]
+}

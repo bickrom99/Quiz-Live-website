@@ -1,0 +1,46 @@
+{
+  "title": "Chemistry Basic Concepts",
+  "quote": "Dive into equations and unravel the secrets of variables!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the SI unit of mass?",
+      "answer": "Kilogram",
+      "options": ["Gram", "Kilogram", "Pound", "Ton"]
+    },
+    {
+      "id": 2,
+      "question": "What is Avogadro's number?",
+      "answer": "6.022 × 10²³",
+      "options": [
+        "6.022 × 10²²",
+        "6.022 × 10²³",
+        "6.022 × 10²⁴",
+        "6.022 × 10²⁵"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the molar mass of water (H₂O)?",
+      "answer": "18 g/mol",
+      "options": ["16 g/mol", "18 g/mol", "20 g/mol", "22 g/mol"]
+    },
+    {
+      "id": 4,
+      "question": "Which is an intensive property?",
+      "answer": "Density",
+      "options": ["Mass", "Volume", "Density", "Energy"]
+    },
+    {
+      "id": 5,
+      "question": "Which law states that mass is conserved in a chemical reaction?",
+      "answer": "Law of Conservation of Mass",
+      "options": [
+        "Law of Definite Proportions",
+        "Law of Conservation of Mass",
+        "Avogadro's Law",
+        "Dalton's Atomic Theory"
+      ]
+    }
+  ]
+}

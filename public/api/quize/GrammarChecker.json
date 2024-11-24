@@ -1,0 +1,61 @@
+{
+  "title": "Grammar Checker",
+  "quote": "est your knowledge of grammar and sentence correctness!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which sentence is grammatically correct?",
+      "answer": "She doesn’t like tea.",
+      "options": [
+        "She don’t like tea.",
+        "She doesn’t like tea.",
+        "She doesn’t likes tea.",
+        "She not like tea."
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Identify the error in the sentence: \"He don’t know the answer.\"",
+      "answer": "don’t should be doesn’t",
+      "options": [
+        "don’t should be doesn’t",
+        "know should be knew",
+        "the should be an",
+        "No error"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Choose the correct sentence.",
+      "answer": "There are many books on the table.",
+      "options": [
+        "There is many books on the table.",
+        "There are many books on the table.",
+        "There was many books on the table.",
+        "There will be many books on the table."
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the error in the sentence: \"She go to school daily\"?",
+      "answer": "go should be goes",
+      "options": [
+        "go should be goes",
+        "daily should be dailies",
+        "to should be at",
+        "No error"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which sentence is correct?",
+      "answer": "We are watching a movie.",
+      "options": [
+        "We is watching a movie.",
+        "We are watching a movie.",
+        "We watching a movie.",
+        "We watched a movie."
+      ]
+    }
+  ]
+}

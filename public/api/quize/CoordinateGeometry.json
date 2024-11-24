@@ -1,0 +1,51 @@
+{
+  "title": "Coordinate Geometry",
+  "quote": "Explore the formulas and equations that shape the world of geometry.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "01. What is the distance formula between two points (x₁, y₁) and (x₂, y₂)?",
+      "answer": "√((x₂ - x₁)² + (y₂ - y₁)²)",
+      "options": [
+        "(x₂ - x₁) + (y₂ - y₁)",
+        "√((x₂ - x₁)² + (y₂ - y₁)²)",
+        "(x₁ + x₂)² + (y₁ + y₂)²",
+        "(x₂ + x₁)(y₂ + y₁)"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "02. What is the slope of a line passing through points (x₁, y₁) and (x₂, y₂)?",
+      "answer": "(y₂ - y₁) / (x₂ - x₁)",
+      "options": [
+        "(x₂ - x₁) / (y₂ - y₁)",
+        "(y₂ - y₁) / (x₂ - x₁)",
+        "x₁y₁ + x₂y₂",
+        "y₁ - y₂ + x₁ - x₂"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "03. What is the equation of a circle with center (h, k) and radius r?",
+      "answer": "(x - h)² + (y - k)² = r²",
+      "options": [
+        "(x + h)² + (y + k)² = r²",
+        "(x - h)² + (y - k)² = r²",
+        "(x² + y²) = r²",
+        "(x + y - h - k)² = r²"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "04. What is the equation of a line in slope-intercept form?",
+      "answer": "y = mx + c",
+      "options": ["y = mx", "y = mx + c", "y = c", "y = x + m"]
+    },
+    {
+      "id": 5,
+      "question": "05. If the distance of a point from the origin is 5, what is the equation?",
+      "answer": "x² + y² = 25",
+      "options": ["x² + y² = 5", "x² + y² = 25", "x + y = 5", "x + y = 25"]
+    }
+  ]
+}

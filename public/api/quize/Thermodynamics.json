@@ -1,0 +1,41 @@
+{
+  "title": "Thermodynamics",
+  "quote": "Test your knowledge of thermodynamics principles and laws!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the first law of thermodynamics?",
+      "answer": "Energy is conserved.",
+      "options": [
+        "Energy is conserved.",
+        "Entropy of the universe is constant.",
+        "Work done equals heat transfer.",
+        "Heat flows from cold to hot."
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the SI unit of energy?",
+      "answer": "Joule",
+      "options": ["Calorie", "Erg", "Joule", "Kilogram"]
+    },
+    {
+      "id": 3,
+      "question": "Which property measures disorder in a system?",
+      "answer": "Entropy",
+      "options": ["Enthalpy", "Entropy", "Temperature", "Pressure"]
+    },
+    {
+      "id": 4,
+      "question": "What is the term for the heat content of a system?",
+      "answer": "Enthalpy",
+      "options": ["Entropy", "Enthalpy", "Internal Energy", "Free Energy"]
+    },
+    {
+      "id": 5,
+      "question": "Which process occurs at constant temperature?",
+      "answer": "Isothermal",
+      "options": ["Isobaric", "Isothermal", "Adiabatic", "Isochoric"]
+    }
+  ]
+}

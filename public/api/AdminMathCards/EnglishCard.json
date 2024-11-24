@@ -9,36 +9,42 @@
     "image": "/images/AdminEnglishImage/englishImage2.jpg",
     "title": "Sentence",
     "view": "1.2k",
-    "play": 60
+    "play": 60,
+    "path": "/sentence"
   },
   {
     "image": "/images/AdminEnglishImage/englishImage3.jpg",
-    "title": "Parts of Speech",
+    "title": "PartsofSpeech",
     "view": "2k",
-    "play": 120
+    "play": 120,
+    "path": "/partofspeech"
   },
   {
     "image": "/images/AdminEnglishImage/englishImage4.jpg",
     "title": "Articles",
     "view": "3.8k",
-    "play": 92
+    "play": 92,
+    "path": "/article"
   },
   {
     "image": "/images/AdminEnglishImage/englishImage5.jpg",
-    "title": "Key Grammar Concepts",
+    "title": "Grammerconcept",
     "view": "12k",
-    "play": "1.3k"
+    "play": "1.3k",
+    "path": "/grammerconcept"
   },
   {
     "image": "/images/AdminEnglishImage/englishImage6.jpg",
-    "title": "Grammar Checker",
+    "title": "GrammarChecker",
     "view": "300",
-    "play": 32
+    "play": 32,
+    "path": "/grammarcheker"
   },
   {
     "image": "/images/AdminEnglishImage/englishImage7.jpg",
     "title": "Modals",
     "view": "20k",
-    "play": "3k"
+    "play": "3k",
+    "path": "/modals"
   }
 ]

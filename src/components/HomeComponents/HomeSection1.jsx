@@ -14,7 +14,7 @@ const HomeSection1 = () => {
                 <p className="mt-5 font-poppins leading-7 text-base">
                     An online live quizzing platform, like Quizizz, can also generate instant reports for you. Live quizzes partner real-time assessment with immediate feedback, so you can address learning gaps on the fly.
                 </p>
-                <Link to="/" className="inline-block items-center justify-center mt-7 mb-7">
+                <Link to="/admin" className="inline-block items-center justify-center mt-7 mb-7">
                     <button className="px-8 py-3 bg-[#8854C0] hover:bg-[#7b44b5] text-white rounded text-sm font-roboto flex justify-center items-center border-b-4 border-[#6930a6] hover:border-none transition-all duration-75 ">
                     Create a Quiz<FaAngleRight className="text-[1rem]" />
                     </button>
