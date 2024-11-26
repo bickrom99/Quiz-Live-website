@@ -33,12 +33,12 @@ const AdminDashboard = () => {
     ];
 
     return (
-        <div className="pl-5 pt-5"> 
+        <div className="sm:pl-5 pt-5"> 
             {/* ====First container with search bar=== */}
             <div className="m-auto flex flex-col justify-center items-center pt-10">
                 <h2 className="text-2xl font-poppins font-semibold pb-6">What will you teach today?</h2>
                 {/* Search any Quizz */}
-                <div className="w-[55%] m-auto flex items-center shadow-md rounded">
+                <div className="sm:w-[55%] w-[80%] m-auto flex items-center shadow-md rounded">
                     <input 
                         type="search" 
                         placeholder="Search for activities on any topic" 
@@ -50,7 +50,7 @@ const AdminDashboard = () => {
                 </div>
 
                 {/* Quizze item icon */}
-                <div className="pt-10 w-[60%] m-auto">
+                <div className="pt-10 sm:w-[60%] w-[75%] m-auto">
                     <ul className="grid grid-cols-4 gap-y-6 gap-x-4">
                         {skills.map((skill, index) => (
                             <li key={index} className="flex flex-col items-center text-center group">
@@ -75,7 +75,7 @@ const AdminDashboard = () => {
 
 
             {/* =====Template container with quiz game====== */}
-            <div className="mt-10 flex flex-col">
+            <div className="mt-10 flex flex-col sm:pl-0 pl-2">
                 {/* Mathematics section */}
                 <div className="flex flex-col w-[95%] m-auto">
                 <div className="flex flex-cols gap-3 items-center">

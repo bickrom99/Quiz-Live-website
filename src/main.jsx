@@ -9,8 +9,6 @@ import {
 import App from "./App";
 import About from './components/AboutComponents/About';
 import AdminLayout from './components/AdminPageComponents/AdminLayout';
-import Login from './components/AdminPageComponents/EntryComponent/Login';
-import Signup from './components/AdminPageComponents/EntryComponent/SignUp';
 import ProtectedRouted from "./components/AdminPageComponents/Utils/ProtectedRouted";
 import Business from './components/BusinessComponents/Business';
 import Contact from './components/ContactComponents/Contact';
@@ -31,6 +29,8 @@ import Seting from './components/AdminPageComponents/DashboardAllPageComponents/
 // quizz page component
 import Quizz from './components/Quize/Quizz';
 import Quzzes from './components/AdminPageComponents/DashboardAllPageComponents/Quzzes';
+import Signup from './components/AuthFirebase/SignUp';
+import Login from './components/AuthFirebase/Login';
 
 
 

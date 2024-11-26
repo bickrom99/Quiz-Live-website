@@ -1,9 +1,9 @@
-import {Link} from 'react-router-dom';
-import {FaAngleRight} from 'react-icons/fa6';
+import { FaAngleRight } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 const HomeSection1 = () => {
     return (
-        <div className="max-w-3xl mx-auto mt-6">
+        <div className="sm:max-w-3xl sm:px-0 px-3 mx-auto mt-6">
             <div className="text-center">
                 <h3 className="font-poppins font-semibold text-[1.5rem]">What are live quizzes?</h3>
                 <p className="mt-2 font-poppins leading-7 text-base">

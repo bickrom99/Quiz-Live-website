@@ -16,7 +16,7 @@ const HomeFaqSection = () => {
                     FAQ'S
                 </div>
 
-                <div>
+                <div className="sm:p-0 p-3">
                     {/* FAQ list */}
                     {HomeFaqs.map((faq, index) => (
                         <div key={index} className="border-b border-gray-300 py-4">

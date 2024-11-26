@@ -17,8 +17,8 @@ const Navbar = ({toggleDarkMode, darkMode}) => {
    
 
     return (
-        <header className="bg-[#fffefe] dark:bg-gray-900 fixed top-0 left-0 right-0 shadow-[0_4px_8px_rgba(0,0,0,0.1)]">
-            <nav className="max-w-6xl py-2 mx-auto flex justify-between items-center dark:bg-gray-900">
+        <header className="bg-[#fffefe] dark:bg-gray-900 fixed top-0 left-0 right-0 shadow-[0_4px_8px_rgba(0,0,0,0.1)] ">
+            <nav className="max-w-6xl sm:py-2 p-2 mx-auto flex justify-between items-center dark:bg-gray-900">
                 
                 {/* Logo with NavLink */}
                 <NavLink to="/">
@@ -26,7 +26,7 @@ const Navbar = ({toggleDarkMode, darkMode}) => {
                 </NavLink>
                 
                 {/* Nav menu items */}
-                <ul className="md:flex gap-6 text-base">
+                <ul className="md:flex gap-6 text-base hidden">
                     {navItems.map(({ path, link }, index) => (
                         <li key={index} className="font-poppins text-sm text-[#343434] dark:text-white">
                             <NavLink
