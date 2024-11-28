@@ -15,12 +15,17 @@ const AdminLayout = () => {
     };
 
     return (
-        <div 
-            className={`${darkMode ? "dark" : ""} max-w-[90%] ml-auto pt-16 overflow-hidden`} 
-            style={{ backgroundColor: darkMode ? "#333" : "#f4f4f4", minHeight: "100vh" }}>
+        <div className="w-full flex justify-center items-center flex-col"
+        style={{ backgroundColor: darkMode ? "#333" : "#f4f4f4", minHeight: "100vh" }}>
+        
+            <div 
+            className={`${darkMode ? "dark" : ""} w-[90%] m-auto pt-16 overflow-hidden`} 
+            >
             <AdminNav darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
             <Outlet/>
-            <AdminFooter/>         
+                   
+        </div>
+        <AdminFooter/>  
         </div>
     );
 };

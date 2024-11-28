@@ -94,7 +94,7 @@ const Quizz = () => {
 
     return (
         <div>
-            <div className="w-[90%] m-auto">
+            <div className="w-[80%] ml-auto">
                 <div className="sm:grid sm:grid-cols-6 flex flex-col gap-5 sm:items-start items-center pt-5">
                     {/* Quiz Section */}
                     <div className="col-span-4 shadow p-4 text-center">

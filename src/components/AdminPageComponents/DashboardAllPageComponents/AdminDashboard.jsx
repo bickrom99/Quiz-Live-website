@@ -75,7 +75,7 @@ const AdminDashboard = () => {
     ];
 
     return (
-        <div className="sm:pl-5 pt-5">
+        <div className="sm:pl-5 pt-5 w-[90%] ml-auto">
             {/* Search Container */}
             <div className="m-auto flex flex-col justify-center items-center pt-10">
                 <h2 className="text-2xl font-poppins font-semibold pb-6">What will you teach today?</h2>
@@ -112,101 +112,102 @@ const AdminDashboard = () => {
                 </div>
             </div>
 
-            {/* Math Quiz card Sections */}
-            <div className="mt-10 flex flex-col sm:pl-0 pl-2">
-                {["Mathematics",].map((subject) => (
-                    <div key={subject} className="flex flex-col w-[95%] m-auto mt-5">
-                        <div className="flex flex-cols gap-3 items-center">
-                            <FaStar className="text-yellow-500 text-xl" />
-                            <h3 className="text-xl font-poppins font-semibold">{subject}</h3>
-                        </div>
+            {/* All card here */}
+                {/* Math card */}
+                <div className="mt-10 flex flex-col sm:pl-0 pl-2">
+                    {["Mathematics",].map((subject) => (
+                        <div key={subject} className="flex flex-col w-[95%] m-auto mt-5">
+                            <div className="flex flex-cols gap-3 items-center">
+                                <FaStar className="text-yellow-500 text-xl" />
+                                <h3 className="text-xl font-poppins font-semibold">{subject}</h3>
+                            </div>
 
-                        {/* Carousel */}
-                        <div className="carousel carousel-center space-x-4 bg-neutral-100 p-4 rounded-box">
-                            {MathCard.map((quiz, index) => (
-                                    <NavLink
-                                        key={index}
-                                        to={`/quizz/${quiz.title}`}
-                                        className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
-                                    >
-                                        <img src={quiz.image} alt="image" className="h-32 w-full object-cover rounded-t" />
-                                        <div className="p-2">
-                                            <h3 className="font-medium text-sm font-poppins">{quiz.title}</h3>
-                                            <div className="flex flex-cols justify-between pt-12">
-                                                <p className="text-xs font-poppins font-light">{quiz.view} views</p>
-                                                <p className="text-xs font-poppins font-light">{quiz.play} plays</p>
+                            {/* Carousel */}
+                            <div className="carousel carousel-center space-x-4 bg-neutral-100 p-4 rounded-box">
+                                {MathCard.map((quiz, index) => (
+                                        <NavLink
+                                            key={index}
+                                            to={`/quizz/${quiz.title}`}
+                                            className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
+                                        >
+                                            <img src={quiz.image} alt="image" className="h-32 w-full object-cover rounded-t" />
+                                            <div className="p-2">
+                                                <h3 className="font-medium text-sm font-poppins">{quiz.title}</h3>
+                                                <div className="flex flex-cols justify-between pt-12">
+                                                    <p className="text-xs font-poppins font-light">{quiz.view} views</p>
+                                                    <p className="text-xs font-poppins font-light">{quiz.play} plays</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </NavLink>
-                                ))}
+                                        </NavLink>
+                                    ))}
+                            </div>
                         </div>
-                    </div>
-                ))}
-            </div>
+                    ))}
+                </div>
 
-            {/* English Quizz card section */}
-            <div className="mt-10 flex flex-col sm:pl-0 pl-2">
-                {[ "English"].map((subject) => (
-                    <div key={subject} className="flex flex-col w-[95%] m-auto mt-5">
-                        <div className="flex flex-cols gap-3 items-center">
-                            <FaStar className="text-yellow-500 text-xl" />
-                            <h3 className="text-xl font-poppins font-semibold">{subject}</h3>
-                        </div>
+                {/* English Quizz card section */}
+                <div className="mt-10 flex flex-col sm:pl-0 pl-2">
+                    {[ "English"].map((subject) => (
+                        <div key={subject} className="flex flex-col w-[95%] m-auto mt-5">
+                            <div className="flex flex-cols gap-3 items-center">
+                                <FaStar className="text-yellow-500 text-xl" />
+                                <h3 className="text-xl font-poppins font-semibold">{subject}</h3>
+                            </div>
 
-                        {/* Carousel */}
-                        <div className="carousel carousel-center space-x-4 bg-neutral-100 p-4 rounded-box">
-                            {EnglishCardData.map((quiz, index) => (
-                                    <NavLink
-                                        key={index}
-                                        to={`/quizz/${quiz.title}`}
-                                        className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
-                                    >
-                                        <img src={quiz.image} alt="image" className="h-32 w-full object-cover rounded-t" />
-                                        <div className="p-2">
-                                            <h3 className="font-medium text-sm font-poppins">{quiz.title}</h3>
-                                            <div className="flex flex-cols justify-between pt-12">
-                                                <p className="text-xs font-poppins font-light">{quiz.view} views</p>
-                                                <p className="text-xs font-poppins font-light">{quiz.play} plays</p>
+                            {/* Carousel */}
+                            <div className="carousel carousel-center space-x-4 bg-neutral-100 p-4 rounded-box">
+                                {EnglishCardData.map((quiz, index) => (
+                                        <NavLink
+                                            key={index}
+                                            to={`/quizz/${quiz.title}`}
+                                            className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
+                                        >
+                                            <img src={quiz.image} alt="image" className="h-32 w-full object-cover rounded-t" />
+                                            <div className="p-2">
+                                                <h3 className="font-medium text-sm font-poppins">{quiz.title}</h3>
+                                                <div className="flex flex-cols justify-between pt-12">
+                                                    <p className="text-xs font-poppins font-light">{quiz.view} views</p>
+                                                    <p className="text-xs font-poppins font-light">{quiz.play} plays</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </NavLink>
-                                ))}
+                                        </NavLink>
+                                    ))}
+                            </div>
                         </div>
-                    </div>
-                ))}
-            </div>
+                    ))}
+                </div>
 
-            {/* Chemistry Quizz card section */}
-            <div className="mt-10 flex flex-col sm:pl-0 pl-2">
-                {[ "Chemistry"].map((subject) => (
-                    <div key={subject} className="flex flex-col w-[95%] m-auto mt-5">
-                        <div className="flex flex-cols gap-3 items-center">
-                            <FaStar className="text-yellow-500 text-xl" />
-                            <h3 className="text-xl font-poppins font-semibold">{subject}</h3>
-                        </div>
+                {/* Chemistry Quizz card section */}
+                <div className="mt-10 flex flex-col sm:pl-0 pl-2">
+                    {[ "Chemistry"].map((subject) => (
+                        <div key={subject} className="flex flex-col w-[95%] m-auto mt-5">
+                            <div className="flex flex-cols gap-3 items-center">
+                                <FaStar className="text-yellow-500 text-xl" />
+                                <h3 className="text-xl font-poppins font-semibold">{subject}</h3>
+                            </div>
 
-                        {/* Carousel */}
-                        <div className="carousel carousel-center space-x-4 bg-neutral-100 p-4 rounded-box">
-                            {ChemistryCardData.map((quiz, index) => (
-                                    <NavLink
-                                        key={index}
-                                        to={`/quizz/${quiz.title}`}
-                                        className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
-                                    >
-                                        <img src={quiz.image} alt="image" className="h-32 w-full object-cover rounded-t" />
-                                        <div className="p-2">
-                                            <h3 className="font-medium text-sm font-poppins">{quiz.title}</h3>
-                                            <div className="flex flex-cols justify-between pt-12">
-                                                <p className="text-xs font-poppins font-light">{quiz.view} views</p>
-                                                <p className="text-xs font-poppins font-light">{quiz.play} plays</p>
+                            {/* Carousel */}
+                            <div className="carousel carousel-center space-x-4 bg-neutral-100 p-4 rounded-box">
+                                {ChemistryCardData.map((quiz, index) => (
+                                        <NavLink
+                                            key={index}
+                                            to={`/quizz/${quiz.title}`}
+                                            className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
+                                        >
+                                            <img src={quiz.image} alt="image" className="h-32 w-full object-cover rounded-t" />
+                                            <div className="p-2">
+                                                <h3 className="font-medium text-sm font-poppins">{quiz.title}</h3>
+                                                <div className="flex flex-cols justify-between pt-12">
+                                                    <p className="text-xs font-poppins font-light">{quiz.view} views</p>
+                                                    <p className="text-xs font-poppins font-light">{quiz.play} plays</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </NavLink>
-                                ))}
+                                        </NavLink>
+                                    ))}
+                            </div>
                         </div>
-                    </div>
-                ))}
-            </div>
+                    ))}
+                </div>
         </div>
     );
 };

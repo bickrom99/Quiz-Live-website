@@ -1,7 +1,8 @@
 import { FaFacebook, FaPinterest, FaTelegram, FaTwitter, FaYoutube } from "react-icons/fa6";
 const AdminFooter = () => {
     return (
-        <div className="bg-[#FFFEFE]  sm:w-[67rem] w-full ml-auto mt-4 p-4">
+        <div className="bg-[#FFFEFE] w-full ml-auto mt-4 p-4">
+            <div className="bg-[#FFFEFE] sm:w-[85%] pr-5 ml-auto">
             <div className="grid sm:grid-cols-5 grid-cols-1 justify-between  py-8 gap-10 sm:pl-0 pl-5">
                 <div className="sm:col-span-2">
                     <a href="/">
@@ -50,6 +51,7 @@ const AdminFooter = () => {
                         <a href="/"><FaTelegram className="text-2xl"/></a>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     );
