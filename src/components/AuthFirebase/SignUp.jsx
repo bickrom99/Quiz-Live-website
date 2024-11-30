@@ -27,17 +27,17 @@ const Signup = () => {
 
     return (
         <div className="min-h-screen flex justify-center">
-        <div className="shadow-lg w-[35%] py-6 m-auto flex flex-col items-center mt-10v h-fit">
+        <div className="shadow-lg w-[35%] py-6 m-auto flex flex-col dark:bg-[#334155] items-center mt-10v h-fit">
             <h2 className="mt-2 pb-3 font-poppins font-semibold text-xl">Sign Up</h2>
             <form onSubmit={signUp} className="flex flex-col w-full p-5">
                 <input
-                        className="w-full border-[1.5px] mb-3 rounded-md pl-3 p-2"
+                        className="w-full border-[1.5px] mb-3 rounded-md dark:text-black pl-3 p-2"
                         type="text"
                         placeholder="Username"
                         
                     />
                 <input
-                    className="w-full border-[1.5px] mb-3 rounded-md pl-3 p-2"
+                    className="w-full border-[1.5px] mb-3 dark:text-black rounded-md pl-3 p-2"
                     type="email"
                     placeholder="Email"
                     value={email}
@@ -45,7 +45,7 @@ const Signup = () => {
                 />
                 
                 <input
-                    className="w-full border-[1.5px] mb-3 rounded-md pl-3 p-2"
+                    className="w-full border-[1.5px] mb-3 dark:text-black rounded-md pl-3 p-2"
                     type="password"
                     placeholder="Password"
                     value={password}

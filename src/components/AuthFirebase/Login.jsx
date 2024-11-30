@@ -28,18 +28,19 @@ const Login = () => {
 
     return (
         <div className="min-h-screen flex justify-center">
-            <div className="shadow-lg w-[35%] py-6 m-auto flex flex-col items-center mt-10v h-fit">
+            <div className="shadow-lg w-[35%] py-6 m-auto dark:bg-[#334155] flex flex-col items-center mt-10v h-fit">
                 <h2 className="mt-4 pb-3 font-poppins font-semibold text-xl">Sign In</h2>
                 <form className="flex flex-col w-full p-5" onSubmit={signIn}>
                     <input
-                        className="w-full border-[1.5px] mb-3 rounded-md pl-3 p-2"
+                        className="w-full border-[1.5px] mb-3 rounded-md dark:text-black
+                         pl-3 p-2"
                         type="email"
                         placeholder="User@gmail.com"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                     />
                     <input
-                        className="w-full border-[1.5px] mb-3 rounded-md pl-3 p-2"
+                        className="w-full border-[1.5px] mb-3 rounded-md pl-3 dark:text-black p-2"
                         type="password"
                         placeholder="Password"
                         value={password}

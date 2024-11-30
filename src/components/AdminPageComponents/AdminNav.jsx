@@ -107,7 +107,7 @@ const AdminNav = ({ toggleDarkMode, darkMode }) => {
             </div>
 
             {/* Top Navbar */}
-            <div className="bg-[#fffefe] sm:w-[85%] w-full grid grid-cols-5 justify-between dark:bg-gray-900 fixed top-0 right-0 border-b border-s pt-3 pb-3 pl-3 z-10">
+            <div className="bg-[#fffefe] sm:w-[85%] w-full grid grid-cols-5 justify-between dark:bg-gray-900 fixed top-0 right-0 border-b dark:border-b-[#111827] border-s dark:border-s-[#111827] pt-3 pb-3 pl-3 z-10">
                 <div className="col-span-4 sm:block hidden bg-[#F2F2F2] text-black pt-[5px]">
                     <input
                         className="bg-[#F2F2F2] outline-none text-black placeholder:text-[#717171] rounded w-[90%] pl-4 text-sm font-roboto"

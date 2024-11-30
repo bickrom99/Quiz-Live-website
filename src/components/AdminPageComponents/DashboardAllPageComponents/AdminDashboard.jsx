@@ -85,7 +85,7 @@ const AdminDashboard = () => {
                         placeholder="Search for activities on any topic"
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
-                        className="flex-grow py-3 px-3 rounded-l font-roboto outline-none placeholder:font-semibold placeholder:font-poppins"
+                        className="flex-grow py-3 px-3 rounded-l font-roboto outline-none placeholder:font-semibold placeholder:font-poppins dark:text-black"
                     />
                     <button type="submit" className="text-[#6D6D6D] bg-white px-4 py-4 rounded-r">
                         <FaArrowRight size={16} />
@@ -101,7 +101,7 @@ const AdminDashboard = () => {
                                     href={skill.path}
                                     className="flex flex-col items-center justify-center space-y-2 transform transition-transform duration-300 group-hover:scale-110"
                                 >
-                                    <span className="h-14 w-14 text-2xl bg-[#e6e6e6] flex justify-center items-center rounded-full">
+                                    <span className="h-14 w-14 text-2xl bg-[#e6e6e6] flex justify-center items-center rounded-full dark:text-black">
                                         {skill.icon}
                                     </span>
                                     <span className="text-xs font-base font-poppins break-words">{skill.name}</span>
@@ -123,12 +123,12 @@ const AdminDashboard = () => {
                             </div>
 
                             {/* Carousel */}
-                            <div className="carousel carousel-center space-x-4 bg-neutral-100 p-4 rounded-box">
+                            <div className="carousel carousel-center space-x-4 bg-neutral-100 dark:bg-[#333333] p-4 rounded-box">
                                 {MathCard.map((quiz, index) => (
                                         <NavLink
                                             key={index}
                                             to={`/quizz/${quiz.title}`}
-                                            className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
+                                            className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white dark:text-black hover:shadow-md transition-transform duration-200"
                                         >
                                             <img src={quiz.image} alt="image" className="h-32 w-full object-cover rounded-t" />
                                             <div className="p-2">
@@ -155,12 +155,12 @@ const AdminDashboard = () => {
                             </div>
 
                             {/* Carousel */}
-                            <div className="carousel carousel-center space-x-4 bg-neutral-100 p-4 rounded-box">
+                            <div className="carousel carousel-center space-x-4 bg-neutral-100 dark:bg-[#333333] p-4 rounded-box">
                                 {EnglishCardData.map((quiz, index) => (
                                         <NavLink
                                             key={index}
                                             to={`/quizz/${quiz.title}`}
-                                            className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
+                                            className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white dark:text-black hover:shadow-md transition-transform duration-200"
                                         >
                                             <img src={quiz.image} alt="image" className="h-32 w-full object-cover rounded-t" />
                                             <div className="p-2">
@@ -187,12 +187,12 @@ const AdminDashboard = () => {
                             </div>
 
                             {/* Carousel */}
-                            <div className="carousel carousel-center space-x-4 bg-neutral-100 p-4 rounded-box">
+                            <div className="carousel carousel-center space-x-4 bg-neutral-100 dark:bg-[#333333] p-4 rounded-box">
                                 {ChemistryCardData.map((quiz, index) => (
                                         <NavLink
                                             key={index}
                                             to={`/quizz/${quiz.title}`}
-                                            className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white hover:shadow-md transition-transform duration-200"
+                                            className="carousel-item flex flex-col h-60 w-52 shadow rounded cursor-pointer bg-white dark:text-black hover:shadow-md transition-transform duration-200"
                                         >
                                             <img src={quiz.image} alt="image" className="h-32 w-full object-cover rounded-t" />
                                             <div className="p-2">

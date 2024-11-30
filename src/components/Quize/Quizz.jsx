@@ -97,10 +97,10 @@ const Quizz = () => {
             <div className="w-[80%] ml-auto">
                 <div className="sm:grid sm:grid-cols-6 flex flex-col gap-5 sm:items-start items-center pt-5">
                     {/* Quiz Section */}
-                    <div className="col-span-4 shadow p-4 text-center">
+                    <div className="col-span-4 shadow dark:bg-[#43494b] p-4 text-center">
                         <h3 className="text-2xl font-poppins font-medium pt-5">
                             {questions.title || "Quiz"}</h3>
-                        <p className="pt-3 font-poppins text-sm font-normal text-[#4c4c4c]">
+                        <p className="pt-3 font-poppins text-sm font-normal text-[#4c4c4c] dark:text-white">
                             {questions.quote || "Solve the questions below!"}
                         </p>
                         <h3 className="text-lg font-bold mt-3 font-poppins">
@@ -163,7 +163,7 @@ const Quizz = () => {
                     </div>
 
                     {/* Results Section */}
-                    <div className="col-span-2 shadow p-4">
+                    <div className="col-span-2 shadow p-4 dark:bg-[#43494b]">
                         <div className="w-[90%] m-auto" ref={resultRef}>
                             <h2 className="text-center font-poppins font-semibold text-xl">Time Counting</h2>
                             <div className="bg-[#4be9f4] text-white font-poppins text-lg w-full py-2 rounded mt-2 text-center">
